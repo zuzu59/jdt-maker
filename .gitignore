@@ -27,3 +27,4 @@ hs_err_pid*
 .git
 .idea
 out/*
+/jdt-maker/dist/
