@@ -48,9 +48,18 @@ public class Window_zf2 extends javax.swing.JFrame {
         jTextArea1.setRows(5);
         jScrollPane1.setViewportView(jTextArea1);
 
+        jButton1.setBackground(new java.awt.Color(123, 234, 123));
+        jButton1.setForeground(new java.awt.Color(125, 125, 125));
         jButton1.setText("Start");
+        jButton1.setBorderPainted(false);
+        jButton1.setOpaque(true);
 
         jButton2.setText("Stop");
+        jButton2.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                jButton2ActionPerformed(evt);
+            }
+        });
 
         jMenu1.setText("File");
 
@@ -117,6 +126,10 @@ public class Window_zf2 extends javax.swing.JFrame {
         // TODO add your handling code here:
         JOptionPane.showMessageDialog(null, "JDT - Maker\n0.0.1");
     }//GEN-LAST:event_tutu
+
+    private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jButton2ActionPerformed
 
     /**
      * @param args the command line arguments
